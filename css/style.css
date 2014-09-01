@@ -1,0 +1,125 @@
+/* Index*/
+
+body{
+	padding-top: 20px;
+}
+
+/* Game Liste */;
+
+.conteneur{
+	position: left;
+}
+
+.gameList .thumbnail {
+	list-style: none;
+	float: left;
+	width: 400px;
+	height: 300px;
+	border-radius: 5px;
+	display: inline;
+}
+
+.gameList .thumbnail a img{
+	width: 100%;
+	height: 219px;
+}
+.gameList .thumbnail a{
+	text-align: center;
+}
+
+.conteneur .thumbnail{
+	list-style: none;
+	float: left;
+	width: 300px;
+	height: 200px;
+	display: block;
+	border-radius: 10px;
+}
+
+/* Articles */
+
+.tab{
+	margin-left: 13em;
+}
+
+.centrerTitle{
+	text-align: center;
+}
+
+
+/*Game Details*/
+
+.game {	
+	
+	
+}
+.gameDetails{
+	width: 400px;
+	position: relative;
+	float: left;
+	padding-left: 20px;
+}
+
+.mosaique {
+	width: 90%;
+	margin: auto;
+}
+
+.mosaique ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 1em;
+	background-color: white;
+}
+.mosaique ul li img{
+	height: 100px;
+	width: 170px;
+	cursor: pointer;	
+}
+
+.game img{
+	
+	padding-top: 20px;
+	margin: auto;
+	width: 50%;
+	height: 100%;	
+	max-height: 358px;
+	display: block;
+}
+
+.conteneurDetails{
+	
+}
+.conteneurDetails p{
+	font-size: 15px;
+}
+
+.liens{
+	width: 800px;	
+	position: relative;
+	float: left;
+	padding-top: 0px;	
+	text-align: justify;
+	
+}
+.liens #policeLien{
+	font-size: 1.17em;
+	font-weight: bold;
+	text-align: right;
+}
+
+.nav{
+
+	}
+
+ .pagination{
+
+ }
+
+ .carousel{
+
+ } 
+
+ .panel-title a { 
+ 	cursor: pointer; 
+ }

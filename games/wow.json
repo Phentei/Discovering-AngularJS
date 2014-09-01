@@ -1,0 +1,16 @@
+{
+	"name" : "World of Warcraft",
+	"genre" : "Heroic Fantasy",
+	"id" : "wow",
+	"year" : 2004,
+	"mainImg": "img/games/wow.jpg",
+	"images" : [
+				"img/games/wow.jpg",
+				"img/games/wow1.jpg",
+				"img/games/wow2.jpg",
+				"img/games/wow3.jpg",
+				"img/games/wow4.jpg"				
+				],
+	"actif" : true,	
+	"resume" : "World of Warcraft (abrégé WoW) est un jeu vidéo de type MMORPG (jeu de rôle en ligne massivement multijoueurs) développé par la société Blizzard Entertainment. C'est le 4e jeu de l'univers médiéval-fantastique Warcraft, introduit par Warcraft: Orcs & Humans en 1994. World of Warcraft prend place en Azeroth, près de quatre ans après les événements de la fin du jeu précédent, Warcraft III: The Frozen Throne1 Blizzard Entertainment annonce World of Warcraft le 2 septembre 20012. Le jeu est sorti en Amérique du Nord le 23 novembre 2004, pour les 10 ans de la franchise Warcraft."
+}

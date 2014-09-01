@@ -1,0 +1,39 @@
+<h1 style="text-align:center">{{game.name}}</h1>
+
+<div class="conteneurDetails">
+	<div class="game">
+		<img ng-src="{{mainImageUrl}}" alt="{{game.name}}">
+	</div>
+</div>
+<br>
+
+<div class="mosaique">
+	<ul>
+		<li ng-repeat="img in game.images">
+			<img ng-src="{{img}}" ng-click="setImage(img)">
+		</ul>
+	</il>
+</div>
+
+
+<div class="gameDetails">
+	<h3>Genre : {{game.genre}}</h3>
+	<h3>Année de sortie : {{game.year}}</h3>
+	<h3>Serveurs publics actifs : {{game.actif | activity}}</h3>
+</div>
+
+
+<div class="liens">
+	<h3>Synopsis : </h3>
+	<p>{{game.resume}}</p>
+	<p id="policeLien">Articles associés :
+	<a ng-href="#/articles/{{game.name}}">Lien</a></p>
+
+</div>
+
+
+<br>	
+
+<div class="liens">
+		
+</div>

@@ -1,0 +1,53 @@
+[
+	{
+		"age" : 0,
+		"id": "wow",
+		"name" : "World of Warcraft",
+		"genre" : "Heroic Fantasy",
+		"year" : 2004,
+		"imgUrl" : "img/games/wow.jpg"
+	},
+
+	{
+		"age" : 1,
+		"id": "swtor",
+		"name" : "Star Wars : The Old Republic",
+		"genre" : "Science- Fiction (SF)",
+		"year" : 2011,
+		"imgUrl" : "img/games/swtor.jpg"
+	},
+
+	{
+		"age" : 2,
+		"id" : "wildstar",
+		"name" : "WildStar",
+		"genre" : "Hybdrid",
+		"year" : 2014,
+		"imgUrl" : "img/games/wildstar.jpg"
+	},
+	{
+		"age" : 3,
+		"id" : "teso",
+		"name" : "Elder Scroll Online",
+		"genre" : "Heroic Fantasy",
+		"year" : 2014,
+		"imgUrl" : "img/games/teso.jpg"
+	},
+	{
+		"age" : 4,
+		"id" : "gw2",
+		"name" : "Guild Wars 2",
+		"genre" : "Heroic Fantasy",
+		"year" : 2012,
+		"imgUrl" : "img/games/gw2.jpg"
+	},
+	{
+		"age" : 5,
+		"id" : "daoc",
+		"name" : "Dark Age of Camelot",
+		"genre" : "Heroic Fantasy",
+		"year" : 2001,
+		"imgUrl" : "img/games/daoc.jpg"
+	}
+
+]

@@ -1,0 +1,22 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="conteneur">
+			Recherche <input ng-model="query">
+			Trier par : 
+			<select ng-model="orderArticle">
+				<option value="date">Date</option>
+				<option value="genre">Genre</option>					
+			</select>
+		</div>
+		<div class="conteneur">
+			<ul>
+				<br>
+				<li class="thumbnail" ng-repeat="article in articles | filter:query | orderBy:orderArticle">
+				<p class="centrerTitle">{{article.title }}</p>
+				<p>{{article.genre}}<span class="tab">{{article.date}}</span><P>				
+				<p> {{article.content | characters:250}} </p>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

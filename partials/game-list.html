@@ -1,0 +1,26 @@
+<div class="container-fluid">
+		<div class="row">
+			<div class="conteneur">
+				Recherche <input ng-model="query">
+				Trier par : 
+				<select ng-model="orderGame">
+					<option value="name">Nom</option>
+					<option value="genre">Genre</option>
+					<option value="year">Année</option>
+				</select>
+			</div>
+			<div class="gameList">
+				<ul>
+					<br>
+					<li ng-repeat="game in games | filter:query | orderBy:orderGame" class="thumbnail">
+						<a href="#/games/{{game.id}}"><img ng-src="{{game.imgUrl}}" ></a>
+						<div style="text-align:center">
+							<a href="#/games/{{game.id}}" style="text-align:center">{{game.name}}</a>
+						</div>
+						<br>
+						<div style="position:relative; float:left; width:50%; display:block">Genre : {{game.genre}}</div>
+						<div style="position:relative; float: right; width:50%; text-align:right">Année de sortie : {{game.year}}</div>					
+					</li>
+				</ul>
+			</div>
+		</div
